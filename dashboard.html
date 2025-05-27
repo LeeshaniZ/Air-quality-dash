@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="../dashboard/dashboard.html">Dashboard</a></li>
+            <li><a href="../map/map.html">Map</a></li>
+            <li><a href="../sensors/sensors.html">Sensors</a></li>
+            <li><a href="../alerts/alerts.html">Alerts</a></li>
+            <li><a href="../user-management/users.html">Users</a></li>
+            <li><a href="../historical-data/history.html">History</a></li>
+            <li><a href="../settings/settings.html">Settings</a></li>
+            <li><a href="../index.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Dashboard</h1>
+    </header>
+
+    <main>
+        <section class="dashboard-cards">
+            <div class="card">
+                <h3>Total Sensors</h3>
+                <p>25</p>
+            </div>
+            <div class="card">
+                <h3>Active Alerts</h3>
+                <p>5</p>
+            </div>
+            <div class="card">
+                <h3>Average AQI</h3>
+                <p>78</p>
+            </div>
+        </section>
+
+        <section class="recent-activity">
+            <h2>Recent Activity</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Event</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10:30 AM</td>
+                        <td>New Sensor Added</td>
+                        <td>✅ Success</td>
+                    </tr>
+                    <tr>
+                        <td>11:00 AM</td>
+                        <td>High AQI Alert</td>
+                        <td>⚠ Warning</td>
+                    </tr>
+                    <tr>
+                        <td>11:15 AM</td>
+                        <td>Sensor Calibration</td>
+                        <td>🔄 In Progress</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+</body>
+</html>

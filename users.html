@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="users.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="../dashboard/dashboard.html">Dashboard</a></li>
+            <li><a href="../alerts/alerts.html">Alerts</a></li>
+            <li><a href="../sensors/sensors.html">Sensors</a></li>
+            <li><a href="../user-management/users.html">Users</a></li>
+            <li><a href="../historical-data/history.html">History</a></li>
+            <li><a href="../settings/settings.html">Settings</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>User Management</h1>
+        <table>
+            <tr>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Actions</th>
+            </tr>
+            <tr>
+                <td>AdminUser</td>
+                <td>admin@example.com</td>
+                <td>Admin</td>
+                <td><button>Edit</button> <button>Delete</button></td>
+            </tr>
+            <tr>
+                <td>JohnDoe</td>
+                <td>john@example.com</td>
+                <td>Viewer</td>
+                <td><button>Edit</button> <button>Delete</button></td>
+            </tr>
+        </table>
+        <button class="add-user-btn">Add New User</button>
+    </div>
+
+</body>
+</html>
